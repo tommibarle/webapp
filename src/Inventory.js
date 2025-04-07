@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import supabase from "../supabase"; // Assicurati di avere supabase.js configurato correttamente
+import supabase from "./supabase"; // Assicurati di avere supabase.js configurato correttamente
 
 function Inventory() {
   const [items, setItems] = useState([]);

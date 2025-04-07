@@ -3,6 +3,8 @@ import Login from "./Login";
 import Dashboard from "./Dashboard";
 import Inventory from "./Inventory";
 
+
+
 const isAuthenticated = localStorage.getItem("user");
 
 function App() {

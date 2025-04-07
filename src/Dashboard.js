@@ -32,3 +32,4 @@ function Card({ title, icon, path, navigate }) {
     </div>
   );
 }
+export default Dashboard;
